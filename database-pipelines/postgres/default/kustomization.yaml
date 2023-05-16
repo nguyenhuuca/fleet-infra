@@ -10,6 +10,9 @@ bases:
 - ../rbac/cluster
 - ../manager
 
+resources:
+- ../namespace
+
 images:
 - name: postgres-operator
   newName: registry.developers.crunchydata.com/crunchydata/postgres-operator
